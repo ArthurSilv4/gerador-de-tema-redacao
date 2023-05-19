@@ -1,4 +1,3 @@
-import { BlockList } from "net";
 
 export function BoxAds() {
     return (
@@ -7,12 +6,15 @@ export function BoxAds() {
                 crossOrigin="anonymous"></script>
 
             <ins
-                className="bg-red-100 block h-100 w-100"
+                className="block w-64 h-64 bg-red-100"
                 data-ad-client="ca-pub-5537187449610195"
                 data-ad-slot="9882629147"
                 data-adstest="on"
                 data-ad-format="auto"
-                data-full-width-responsive="true"></ins>
+                data-full-width-responsive="true"
+            >
+            </ins>
+
             <script>
                 (adsbygoogle = window.adsbygoogle || []).push({ });
             </script>
