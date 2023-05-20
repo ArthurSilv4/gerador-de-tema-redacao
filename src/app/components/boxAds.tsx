@@ -6,7 +6,7 @@ export function BoxAds() {
                 crossOrigin="anonymous"></script>
 
             <ins
-                className="block w-68 h-64 bg-red-100 "
+                className="block w-68 h-64"
                 data-ad-client="ca-pub-5537187449610195"
                 data-ad-slot="9882629147"
                 data-adstest="on"
