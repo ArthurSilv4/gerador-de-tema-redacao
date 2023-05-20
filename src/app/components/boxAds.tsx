@@ -3,8 +3,8 @@ export function BoxAds() {
     return (
         <div className="mt-16">
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5537187449610195"
-                crossOrigin="anonymous"></script>
-
+     crossOrigin="anonymous"></script>
+     
             <ins
                 className="block w-68 h-64"
                 data-ad-client="ca-pub-5537187449610195"
