@@ -3,12 +3,12 @@
 import { useState } from 'react';
 import { BoxAds } from './components/boxAds'
 
-export default function Home(){
+export default function Home() {
 
   const temas = [
-    'Pandemia', 
-    'Racismo e Discriminação Social', 
-    'Racismo e Discriminação Social', 
+    'Pandemia',
+    'Racismo e Discriminação Social',
+    'Racismo e Discriminação Social',
     'Preconceito Linguístico',
   ];
   const [temaAleatorio, setemaAleatorio] = useState('');
@@ -21,34 +21,48 @@ export default function Home(){
 
 
   return (
-    <main className="m-4 py-4 md:m-8 md:py-8">
+    <main className="m-4 h-full">
+      <div className='flex justify-center h-full'>
 
-       <div className="bg-cyan-700 max-w-[600px] m-auto p-2 rounded-lg flex flex-col drop-shadow-lg border-double border-2 border-cyan-900 md:p-4">
-        
-          <div className="m-auto">
-            <h1 className="bg-cyan-900 p-2 rounded-lg text-center text-2xl font-extrabold drop-shadow-2xl md:text-4xl md:p-4">
+        <div className="bg-slate-800 m-auto max-w-[600px] p-4 rounded-2xl drop-shadow-lg md:p-8">
+
+          <div className="">
+            <h1 className="text-3xl text-center md:text-6xl">
               Gerador de tema de redação
             </h1>
           </div>
 
-          <div className='m-auto my-36'>
-            <p className='bg-blue-950 p-4 rounded-3xl text-xs font-semibold drop-shadow-sm border-solid border-2 border-cyan-900 md:p-8 md:text-lg'>
-              {temaAleatorio}
-            </p>
+          <div className='py-32 md:py-64'>
+            <div className='bg-white p-1 rounded-md md:p-2'>
+              <p className=' text-zinc-500 text-base text-center md:text-2xl'>
+                {temaAleatorio}
+              </p>
+            </div>
           </div>
 
-          <div className='m-auto pb-4 w-5/6 '>
-            <button className='bg-green-700 hover:bg-green-600 p-2 rounded-xl font-extrabold w-full md:p-4 md:text-3xl'
+
+          <div className=' bg-button p-2 rounded-xl hover:bg-buttonHover md:p-4'>
+            <button className='text-blackk h-full w-full text-xl text-center md:text-3xl'
               onClick={escolherTemaAleatorio}
             >
               GERAR TEMA ALEATÓRIO
             </button>
           </div>
-      
+
+        </div>
+
       </div>
 
-      <BoxAds />
-      <BoxAds /> 
+      <div className='mb-8'>
+        <div className='pt-2'>
+          <BoxAds />
+        </div>
+        <div className='pt-4'>
+          <BoxAds />
+        </div>
+
+
+      </div>
     </main>
   )
 }
