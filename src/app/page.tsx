@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { BoxAds } from './components/boxAds'
+import {Analytics} from '@vercel/analytics/react'
 
 export default function Home() {
 
@@ -61,8 +62,11 @@ export default function Home() {
           <BoxAds />
         </div>
 
+        
 
       </div>
+
+      <Analytics/>
     </main>
   )
 }
