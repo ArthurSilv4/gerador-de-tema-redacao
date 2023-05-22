@@ -8,6 +8,11 @@ const cabin = Cabin({ subsets: ['latin'] })
 export const metadata = {
   title: 'Gerador de tema de redaçao aleatorio',
   description: 'Gerador de tema de redação aleatorio',
+
+  icons:{
+    icon: {url:'/favicon.ico', type:'image/ico'},
+    shortcut: {url:'/favicon.ico', type:'image/ico'}
+  }
 }
 
 export default function RootLayout({
