@@ -1,5 +1,7 @@
 import './globals.css'
 import { Cabin } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/react'
+
 
 const cabin = Cabin({ subsets: ['latin'] })
 
@@ -17,7 +19,10 @@ export default function RootLayout({
     <html lang="pt-br"
       className=' text-white'
     >
-      <body className={cabin.className + "h-full"}>{children}</body>
+      <body className={cabin.className + "h-full"}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   )
 }
