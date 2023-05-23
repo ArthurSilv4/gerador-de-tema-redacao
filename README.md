@@ -10,7 +10,7 @@ O objetivo deste site é auxiliar estudantes na preparação para a redação do
 Você pode acessar o site clicando [Aqui](https://gerador-de-tema-redacao.vercel.app)
 
 ## Layout 
-![Inicial 1](https://github.com/ArthurSilv4/gerador-de-tema-redacao/public/image/interface.png)
+![Inicial 1](https://github.com/ArthurSilv4/gerador-de-tema-redacao/blob/main/public/image/Interface.png)
 
 # Tecnologias utilizadas
 - Framework Nextjs
