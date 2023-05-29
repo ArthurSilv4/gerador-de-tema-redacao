@@ -14,6 +14,7 @@ Você pode acessar o site clicando [Aqui](https://gerador-de-tema-redacao.vercel
 
 # Tecnologias utilizadas
 - Framework Nextjs
+- React
 - Typescript
 - Tawind Css
 
