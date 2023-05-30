@@ -4,10 +4,10 @@ export function BoxAds() {
         <div>
             <head>
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5537187449610195"
-                    crossorigin="anonymous"></script>
+                    crossOrigin="anonymous"></script>
             </head>
 
-            
+
         </div >
     )
 }
